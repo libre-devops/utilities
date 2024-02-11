@@ -12,11 +12,11 @@ Set-StrictMode -Version Latest
 
 ########### Edit the below variables to use script ############
 
-$SubscriptionId = "CyberScot-Prd"
-$ShorthandName = "cscot"
+$SubscriptionId = "sub-ldo-uks-prd-mgmt-01"
+$ShorthandName = "lbd"
 $ShorthandLocation = "uks"
 $ShorthandEnv = "prd"
-$GithubOrgName = "cyber-scot"
+$GithubOrgName = "libre-devops"
 
 
 ########## Do not edit anything below unless you know what you are doing ############
