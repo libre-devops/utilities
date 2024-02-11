@@ -29,7 +29,7 @@ try
         $global:SubscriptionId = "sub-ldo-uks-prd-mgmt-01"
         $global:ShorthandName = "lbd"
         $global:ShorthandLocation = "uks"
-        $global:ShorthandEnv = "prd6"
+        $global:ShorthandEnv = "prd"
         Determine-LonghandLocation
         Convert-ShorthandNames
         Set-ResourceObjectNames
