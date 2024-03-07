@@ -16,7 +16,7 @@ $SubscriptionId = "sub-ldo-uks-prd-mgmt-01"
 $ShorthandName = "lbd"
 $ShorthandLocation = "uks"
 $ShorthandEnv = "prd"
-$GithubOrgName = "libre-devops"
+$GithubOrgName = "thacktech"
 
 
 ########## Do not edit anything below unless you know what you are doing ############
