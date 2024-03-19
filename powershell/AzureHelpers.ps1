@@ -26,3 +26,21 @@ function Connect-AzAccountWithServicePrincipal
         throw $_
     }
 }
+
+function ResourceId-Parser
+{
+    param (
+        [string]$ResourceId
+    )
+
+    $resourceIdParts = $ResourceId -split '/'
+    $subscriptionId = $resourceIdParts[2]
+    $resourceGroupName = $resourceIdParts[4]
+    $resourceName = $resourceIdParts[-1]
+
+    return [PSCustomObject]@{
+        SubscriptionId = $subscriptionId
+        ResourceGroupName = $resourceGroupName
+        ResourceName = $resourceName
+    }
+}

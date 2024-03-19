@@ -7,4 +7,5 @@ param()
 Export-ModuleMember -Function @(
     'Convert-ToBoolean'
     'Connect-AzAccountWithServicePrincipal'
+    'ResourceId-Parser'
 )
