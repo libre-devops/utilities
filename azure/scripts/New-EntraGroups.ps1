@@ -4,7 +4,7 @@
 
     Example:
     ./New-EntraGroups.ps1 -SubscriptionOrResourceGroupName "Libre-DevOps", "CyberScot" -AzurePermission "Owners" -Environment "Dev"
-    This will create a group with the name: Az-Libre-DevOps-Dev-Owners & Az-CyberScot-Owners-Dev
+    This will create a group with the name: Az-Libre-DevOps-Dev-Owners & Az-CyberScot-Dev-Owners
 
 .DESCRIPTION
     This script authenticates to Azure AD and creates security groups based on provided inputs for the subscription/resource group name, environment, and permission level.
